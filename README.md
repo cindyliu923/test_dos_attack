@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Test DoS Attack Project
 
-Things you may want to cover:
+## Get Start
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Use with this [article](https://cindyliu923.com/2021/05/07/Burp-Suite-DoS-attack)
+2. git clone this repository
+3. cd test_dos_attack
+4. bundle install
+5. bundle exec rake db:create
+6. bundle exec rake db:migrate
+7. rails s
